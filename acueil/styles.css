@@ -1,0 +1,88 @@
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('post.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 300px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.card-header h3{
+color: white;
+}
+
+.container h1 {
+    font-family:"Segoe print", Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(236, 214, 214)), to(rgb(156, 140, 152)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    text-align: center;
+    padding-top: 20px; 
+
+}
+
+
+
+.input-group-prepend span{
+width: 50px;
+background-color:rgb(156, 140, 152);
+color: black;
+border:0 !important;
+}
+.icone {
+    width: 35px;
+    height: 27px;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+
+.login_btn{
+color: black;
+background-color:rgb(156, 140, 152);
+width: 100px;
+}
+
+
+@media (max-width: 800px) {
+    .shopping-cart {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+    }}
+
+    .is-active {
+        animation-name: animate;
+        animation-duration: .8s;
+        animation-iteration-count: 1;
+        animation-timing-function: steps(28);
+        animation-fill-mode: forwards;
+      }
+      
+      @keyframes animate {
+        0%   { background-position: left;  }
+        50%  { background-position: right; }
+        100% { background-position: right; }
+      }

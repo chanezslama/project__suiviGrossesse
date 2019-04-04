@@ -1,0 +1,78 @@
+/*!
+ * Start Bootstrap - One Page Wonder v5.0.4 (https://startbootstrap.com/template-overviews/one-page-wonder)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
+ */body{font-family:Lato}
+ h1,h2,h3,h4,h5,h6{font-family:Catamaran;font-weight:800!important}
+ .btn-xl{text-transform:uppercase;padding:1.5rem 3rem;font-size:.9rem;font-weight:300;letter-spacing:.1rem}
+ .bg-black{background-color:#000!important}
+ .navbar-custom{padding-top:1rem;padding-bottom:1rem;background-color:rgba(0,0,0,.7)}
+ .navbar-custom .navbar-brand{text-transform:uppercase;font-size:1rem;letter-spacing:.1rem;font-weight:700}
+ .navbar-custom .navbar-nav .nav-item .nav-link{text-transform:uppercase;font-size:.8rem;font-weight:700;letter-spacing:.1rem}
+ header.masthead{position:relative;overflow:hidden;padding-top:calc(7rem + 72px);  background-image: url("post.jpg");
+padding-bottom:7rem;background-repeat:no-repeat;background-position:center center;background-attachment:scroll;background-size: 100% 90% ;}
+header.masthead .masthead-content{z-index:1;position:relative}
+header.masthead .masthead-content .masthead-heading{font-size:3rem}
+header.masthead .masthead-content .masthead-subheading{font-size:3rem}
+@media (min-width:992px){header.masthead{padding-top:calc(10rem + 55px);padding-bottom:10rem}
+header.masthead .masthead-content .masthead-heading{font: size 3rem}
+header.masthead .masthead-content .masthead-subheading{font-size:3rem}}
+
+.Title{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.Introduction{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin-top: 50px;
+}
+.Introduction-text{
+    padding-top: 40px;
+    text-align: justify;
+}
+
+.description-question{
+    margin-right: 60px;
+    margin-left: 60px;
+    padding: 15px;
+    background-color:#f5f5f0;
+}
+.description-explication{
+    margin-right: 60px;
+    margin-left: 60px;
+    padding: 15px;
+    border: solid #f5f5f0;
+}
+.Formule{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+}
+.Formule-text{
+    padding: 40px;
+    text-align: justify;
+
+}
+.Formule-title{
+    padding-bottom: 30px;
+}
+.Formule-image{
+    padding-top: 130px;
+}
+.Contact{
+    margin: 150px;
+}
+.footer{
+    background-color:  #ffe6e6;
+    padding: 30px;
+}
+.Copyright{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    border-top:solid gray 0.2px;
+}
+
+

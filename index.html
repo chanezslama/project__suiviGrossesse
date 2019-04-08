@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Page Title</title>
+	<title>Suivi Grossesse</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" media="screen" href="styles.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -22,7 +22,7 @@
 							<form>
 								<div class="input-group form-group">
 									<div class="input-group-prepend">
-										<span class="input-group-text"><img src="enceinte-ConvertImage.ico" class="icone"><i class="fas fa-user"></i></span>
+										<span class="input-group-text"><img src="acueil/enceinte-ConvertImage.ico" class="icone"><i class="fas fa-user"></i></span>
 									</div>
 									<input type="text" class="form-control" id="nom" placeholder="Votre NOM">
 									<span id="aideNom"></span>
@@ -30,9 +30,9 @@
 								</div>
 								<div class="input-group form-group">
 									<div class="input-group-prepend">
-										<span class="input-group-text"><img src="depositphotos_78957880-stock-illustration-black-month-calendar-icon-2-ConvertImage.ico" class="icone"><i class="fas fa-key"></i></span>
+										<span class="input-group-text"><img src="acueil/depositphotos_78957880-stock-illustration-black-month-calendar-icon-2-ConvertImage.ico" class="icone"><i class="fas fa-key"></i></span>
 									</div>
-									<select name="Mois" class="form-control">
+									<select name="Mois" class="form-control" id='mois'>
 												<option value="Mois1">Mois 1 </option>
 												<option value="Mois2">Mois 2</option>
 												<option value="Mois3">Mois 3</option>
@@ -48,7 +48,7 @@
 								</div>
 								
 								<div class="form-group">
-									<input type="submit" value="Login" class="btn float-right login_btn">
+									<input type="button" value="Login" class="btn float-right login_btn" onclick="login()">
 								</div>
 							</form>
 						</div>
@@ -57,4 +57,51 @@
 				</div>	
 	
 </body>
+<script>
+	function login(){
+		
+		var nom= document.getElementById('mois').value;
+		switch (nom) {
+			case nom = "Mois1":
+			window.open('mois 1/mois1.html');
+			break;
+
+			case nom = "Mois2":
+			window.open('Suivigrossesse-2mois/Suivigrossesse.html');
+			break;
+
+			case nom = "Mois3":
+			window.open('mois 3/mois3.html');
+			break;
+
+			case nom = "Mois4":
+			window.open('mois 4/mois4.html');
+			break;
+
+			case nom = "Mois5":
+			window.open('mois 5/mois5.html');
+			break;
+
+			case nom = "Mois6":
+			window.open('mois 6/mois6.html');
+			break;
+
+			case nom = "Mois7":
+			window.open('Suivigrossesse-7mois/Suivigrossesse7mois.html');
+				
+				break;
+				case nom = "Mois8":
+			window.open('Suivigrossesse-8mois/8moisSuivigrossesse.html');
+				
+				break;
+				case nom = "Mois9":
+			window.open('mois 9/mois9.html');
+				
+				break;
+			default:
+				break;
+		}
+
+	}
+</script>
 </html>
